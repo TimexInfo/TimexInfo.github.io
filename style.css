@@ -28,26 +28,32 @@ body {
     }
   
   @font-face {
-    font-family: "Oxanium";
-    src: url(fonts/Oxanium/OxaniumRegular.ttf) format(truetype);
-    font-weight: normal;
-  }
-  
-  
-  @font-face {
-    font-family: "Cus";
-    src: url(fonts/Single/Captureit.ttf) format(truetype);
+    font-family: "Orbitron";
+    src: url(fonts/Orbitron/OrbitronBlack.ttf) format(truetype);
     font-weight: normal;
   }
   
   @font-face {
-    font-family: "Ae";
-    src: url(fonts/Single/VCR_OSD_MONO.ttf) format(truetype);
+    font-family: "Orbitron";
+    src: url(fonts/Oxanium/OrbitronBold.ttf) format(truetype);
     font-weight: normal;
   }
+
+  @font-face {
+    font-family: "Orbitron";
+    src: url(fonts/Oxanium/OrbitronLight.ttf) format(truetype);
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: "Orbitron";
+    src: url(fonts/Oxanium/OrbitronMedium.ttf) format(truetype);
+    font-weight: normal;
+  }
+
   .vcr {
     font: 1.5em "VCR_OSD_MONO", Ae, sans-serif !important;
-  
+
   }
   
   h {
@@ -55,21 +61,46 @@ body {
     justify-content: center;
     padding: 100px 0 0 0;
     color: rgb(230, 230, 235);
-    font: 1em "Capture it", Cus, sans-serif;
+    font: 1em "OrbitronBlack", Cus, sans-serif;
     font-size: 4.6em;
-    text-shadow: 0 -1px 0 #c0c0c0, 0 1px 0 hsl(0, 0%, 24%),
-      0 2px 0 hsl(0, 0%, 23%), 0 3px 0 hsl(0, 0%, 22%), 0 4px 0 hsl(0, 0%, 21%),
-      0 5px 0 hsl(0, 0%, 20%), 0 6px 0 hsl(0, 0%, 19%), 0 7px 0 hsl(0, 0%, 18%),
-      0 8px 0 hsl(0, 0%, 17%), 0 9px 0 hsl(0, 0%, 16%), 0 10px 0 hsl(0, 0%, 15%),
-      0 11px 1px hsl(0, 0%, 14%);
     letter-spacing: 1px;
   }
-  
-h1 {
+
+  h {
     display: flex;
     justify-content: center;
+    padding: 100px 0 0 0;
     color: rgb(230, 230, 235);
-    font: 1.4em "VCR_OSD_MONO", Cus, sans-serif;
-    text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
-    line-height: 30px;
+    font: 1em "OrbitronBold", Cus, sans-serif;
+    font-size: 4.6em;
+    letter-spacing: 1px;
+  }
+
+  h {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 0 0;
+    color: rgb(230, 230, 235);
+    font: 1em "OrbitronLight", Cus, sans-serif;
+    font-size: 4.6em;
+    letter-spacing: 1px;
+  }
+
+  h {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 0 0;
+    color: rgb(230, 230, 235);
+    font: 1em "OrbitronMedium", Cus, sans-serif;
+    font-size: 4.6em;
+    letter-spacing: 1px;
+  }
+
+  h {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 0 0;
+    color: rgb(230, 230, 235);
+    font-size: 4.6em;
+    letter-spacing: 1px;
   }
