@@ -66,17 +66,17 @@ body {
     letter-spacing: 1px;
   }
 
-  h {
+  h1 {
     display: flex;
     justify-content: center;
     padding: 100px 0 0 0;
     color: rgb(230, 230, 235);
-    font: 1em "OrbitronBold", Cus, sans-serif;
+    font: 1em "OrbitronBold";
     font-size: 4.6em;
     letter-spacing: 1px;
   }
 
-  h {
+  h2 {
     display: flex;
     justify-content: center;
     padding: 100px 0 0 0;
@@ -86,7 +86,7 @@ body {
     letter-spacing: 1px;
   }
 
-  h {
+  h3 {
     display: flex;
     justify-content: center;
     padding: 100px 0 0 0;
