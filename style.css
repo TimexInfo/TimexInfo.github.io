@@ -8,7 +8,7 @@ body {
     /* Firefox */
     * {
       scrollbar-width: auto;
-      scrollbar-color: #0e1012 #ffffff;
+      scrollbar-color: #0e1012 #1e1f20;
     }
   
     /* Chrome, Edge, and Safari */
@@ -56,7 +56,7 @@ body {
 
   }
   
-  h {
+  .c-hm h {
     display: flex;
     justify-content: center;
     padding: 100px 0 0 0;
