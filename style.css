@@ -56,12 +56,12 @@ body {
 
   }
   
-  .c-hm h {
+  h {
     display: flex;
     justify-content: center;
     padding: 100px 0 0 0;
     color: rgb(230, 230, 235);
-    font: 1em "OrbitronBlack", Cus, sans-serif;
+    font: 1em "OrbitronBlack";
     font-size: 4.6em;
     letter-spacing: 1px;
   }
